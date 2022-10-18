@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/purchase.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
+    <title>Medisan - Mua hàng</title>
+</head>
+
+<body>
+    <header id="header-main">
+        <div class="grid">
+            <header id="header-top__wrapper">
+                <div class="header__top-left">
+                    <a href="#" class="header__logo">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+
+                    <div class="header__search-wrapper">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm..."></input>
+                        <img class="header__search-icon" src="assets/img/Search_icon.png" alt="">
+                    </div>
+
+                    <button class="header__category-box cp">
+                        <span class="header__category-text">
+                            <i class="fa-solid fa-bars"></i>
+                            Danh mục
+                        </span>
+                    </button>
+                </div>
+
+                <div class="header__top-right">
+                    <button class="header-top-right__item"><img class="header-top-right__img" src="assets/img/phone.png"
+                            alt=""><span>: (090) 9191919</span></button>
+                    <button class="header-top-right__item cp"><img class="header-top-right__img"
+                            src="assets/img/user.png" alt=""></button>
+                    <button class="header-top-right__item cp"><img class="header-top-right__img"
+                            src="assets/img/cart.png" alt=""></button>
+                </div>
+            </header>
+
+            <!-- mobile menu -->
+            <div class="respon-menu">
+                <label for="menu-btn" class="respon-menu__btn"><i class="fa-solid fa-bars"></i></label>
+                <label class="respon-menu__btn"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </div>
+        </div>
+        <header id="header-bottom">
+            <div class="grid">
+                <input type="checkbox" hidden name="" id="menu-btn">
+                <div class="header-bottom__wrapper">
+                    <ul class="header-bottom__list">
+                        <label for="menu-btn" class="header-bottom__menu-btn"><i class="fa-solid fa-bars"></i></label>
+                        <li class="header-bottom__item"><a href="index.html" class="header-bottom__link">Trang chủ</a>
+                        </li>
+                        <li class="header-bottom__item header-bottom__item--action"><a href="purchase.html" class="header-bottom__link">Mua hàng</a>
+                        </li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Tích điểm</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Ưu đãi</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Chuyên gia tư vấn</a>
+                        </li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Sống khỏe</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Nhà thuốc</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </header>
+
+    <article id="article">
+        <div class="grid">
+            <div class="article__wrapper">
+                <aside class="article__aside">
+                    <ul class="aside__list">
+                        <h4 class="aside__heading">Tìm theo giá</h4>
+                        <li class="aside__list-item">
+                            <label for="checkbox1" class="aside__label">
+                                <input type="checkbox" id="checkbox1" class="aside-checkbox">
+                                Dưới 150.000 VNĐ
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox2" class="aside__label">
+                                <input type="checkbox" id="checkbox2" class="aside-checkbox">
+                                Từ 150.000 - 300.000 (VNĐ)
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox3" class="aside__label">
+                                <input type="checkbox" id="checkbox3" class="aside-checkbox">
+                                Từ 300.000 - 450.000 (VNĐ)
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox4" class="aside__label">
+                                <input type="checkbox" id="checkbox4" class="aside-checkbox">
+                                Từ 450.000 - 600.000 (VNĐ)
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox5" class="aside__label">
+                                <input type="checkbox" id="checkbox5" class="aside-checkbox">
+                                Từ 600.000 - 750.000 (VNĐ)
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox6" class="aside__label">
+                                <input type="checkbox" id="checkbox6" class="aside-checkbox">
+                                Từ 750.000 - 900.000 (VNĐ)
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox7" class="aside__label">
+                                <input type="checkbox" id="checkbox7" class="aside-checkbox">
+                                Trên 900.000 (VNĐ)
+                            </label>
+                        </li>
+                    </ul>
+
+                    <ul class="aside__list">
+                        <h4 class="aside__heading">Nơi bán</h4>
+                        <li class="aside__list-item">
+                            <label for="checkbox8" class="aside__label">
+                                <input type="checkbox" id="checkbox8" class="aside-checkbox">
+                                TP. Hồ Chí Minh
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox9" class="aside__label">
+
+                                <input type="checkbox" id="checkbox9" class="aside-checkbox">
+                                Hà Nội
+                            </label>
+                        </li>
+                    </ul>
+
+                    <ul class="aside__list">
+                        <h4 class="aside__heading">Nhãn hiệu</h4>
+                        <li class="aside__list-item">
+                            <label for="checkbox10" class="aside__label">
+                                <input type="checkbox" id="checkbox10" class="aside-checkbox">
+                                Alipas
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox11" class="aside__label">
+                                <input type="checkbox" id="checkbox11" class="aside-checkbox">
+                                Otiv
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox12" class="aside__label">
+                                <input type="checkbox" id="checkbox12" class="aside-checkbox">
+                                Jex
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox13" class="aside__label">
+                                <input type="checkbox" id="checkbox13" class="aside-checkbox">
+                                Fax
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox14" class="aside__label">
+                                <input type="checkbox" id="checkbox14" class="aside-checkbox">
+                                Hewel
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox15" class="aside__label">
+                                <input type="checkbox" id="checkbox15" class="aside-checkbox">
+                                Lic
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox16" class="aside__label">
+                                <input type="checkbox" id="checkbox16" class="aside-checkbox">
+                                Wit
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox17" class="aside__label">
+                                <input type="checkbox" id="checkbox17" class="aside-checkbox">
+                                Angela Gold
+                            </label>
+                        </li>
+                        <li class="aside__list-item">
+                            <label for="checkbox18" class="aside__label">
+                                <input type="checkbox" id="checkbox18" class="aside-checkbox">
+                                Ritana
+                            </label>
+                        </li>
+                    </ul>
+                </aside>
+
+                <section class="article__section">
+                    <div class="section-heading__wrapper">
+                        <div class="section-heading">
+                            <div class="section-heading-top-left__wrapper">
+                                <h2 class="section-heading-top-left__heading">Danh sách sản phẩm</h2>
+                                <p class="section-heading-top-left__count">Hiển thị <span
+                                        class="section-heading-top-left__highlight">1-15</span> trên tổng số <span
+                                        class="section-heading-top-left__highlight">21</span> sản phẩm</p>
+                            </div>
+                            <div class="section-heading-top-right__wrapper">
+                                <h2 class="section__filter-heading">Sắp xếp theo</h2>
+                                <div class="section__filter-box">
+                                    <span class="section__filter-text">Chọn</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-heading">
+                            <button class="section-heading-bottom__btn section-heading-bottom__btn--highlight">Tất
+                                cả</button>
+                            <div class="section__pagination">
+                                <button class="section__pagination-btn section__pagination-btn--disable"><i
+                                        class="fa-solid fa-angle-left"></i></button>
+                                <button class="section__pagination-btn section__pagination-btn--action">1</button>
+                                <button class="section__pagination-btn">2</button>
+                                <button class="section__pagination-btn"><i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="section-product__list">
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+
+                        <li class="section-product__item">
+                            <a href="detail.html">
+                                <div class="section-product__img-wrapper">
+                                    <div class="section-product__img"></div>
+                                </div>
+                                <div class="section-product__heading">Jex thế hệ mới 60 viên</div>
+                                <div class="section-product__price-wrapper">
+                                    <span class="section-product__price">630.000 VNĐ</span>
+                                    <button class="section-product__add-btn"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                                <p class="section-product__location">Hà Nội, TP. Hồ Chí Minh</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="section__pagination">
+                        <button class="section__pagination-btn section__pagination-btn--disable"><i
+                                class="fa-solid fa-angle-left"></i></button>
+                        <button class="section__pagination-btn section__pagination-btn--action">1</button>
+                        <button class="section__pagination-btn">2</button>
+                        <button class="section__pagination-btn"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </article>
+
+    <footer id="footer">
+        <div class="grid">
+            <img src="assets/img/logo.png" class="footer__logo"></img>
+            <div class="footer__box">
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Phòng khám đa khoa quốc tế S.Medisan</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Địa
+                                    chỉ: </span>A12, Đinh Tiên Hoàng, Q. Hoàn Kiếm, Hà Nội</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Số điện
+                                    thoại: </span>0123456789</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Email:
+                                </span>contact@yourdomain.com</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span
+                                    class="footer__bold">Website: </span>http://smedisan.w2.exdomain.net</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Thông tin</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Về chúng tôi</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chính sách bảo mật</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Điều khoản và điều kiện</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chính sách thanh toán</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Menu chính</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Trang chủ</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Mua hàng</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Tích điểm</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Ưu đãi</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chuyên gia tư vấn</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Sống khỏe</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Nhà thuốc</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

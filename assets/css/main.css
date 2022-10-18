@@ -1,0 +1,473 @@
+/* Header top */
+#header-top__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top-left {
+    display: flex;
+    align-items: center;
+}
+
+#header-top__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0 17px 0;
+}
+
+.header__logo {
+    margin: 15px 0;
+    height: 44px;
+    display: inline-block;
+}
+
+.header__logo img {
+    height: 100%;
+}
+
+.header__search-input {
+    width: 410px;
+    height: 28px;
+    padding: 0 25px 0 50px;
+    margin: 0 26px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.header__search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header__search-icon {
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    height: 18px;
+}
+
+.header__category-box {
+    padding: 0 12px;
+    height: 42px;
+    border: none;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border-radius: 4px;
+}
+
+.header-top-right__item {
+    height: 24px;
+    background-color: unset;
+    border: none;
+    margin-left: 26px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header-top-right__item span {
+    color: #8e92b6;
+    font-size: 1.8rem;
+}
+
+.header-top-right__img {
+    height: 100%;
+}
+
+/* Header bottom */
+#header-bottom {
+    background-color: var(--main-color);
+}
+
+.header-bottom__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom__list {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-bottom__item {
+    display: inline-block;
+}
+
+.header-bottom__item:hover {
+    background-color: var(--bold-main-color);
+}
+
+.header-bottom__item--action {
+    background-color: var(--bold-main-color);
+}
+
+.header-bottom__link {
+    padding: 10px 16px;
+    color: var(--white-color);
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+.header-bottom__item--highlight {
+    background-color: var(--bold-main-color);
+}
+
+/* Article 1 */
+.article-1 {
+    /* margin-top: 110px; */
+    height: 542px;
+    position: relative;
+}
+
+.article__background {
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.article-1 .article__wrapper {
+    width: 640px;
+    position: absolute;
+    top: 90px;
+}
+
+.article__heading {
+    color: var(--main-color);
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+}
+
+.article__description {
+    color: #8e92b6;
+    font-size: 2.1rem;
+    line-height: 2.2rem;
+    margin: 10px 0;
+    text-shadow: 0 0 1px #ccc;
+}
+
+.article__button {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border-radius: 50px;
+    border: none;
+    width: 190px;
+    height: 54px;
+    font-size: 1.6rem;
+}
+
+.article__button:hover {
+    background-color: var(--white-color);
+    color: var(--main-color);
+    cursor: pointer;
+    border: solid var(--main-color) 2px;
+}
+
+/* article 2 */
+.article-2 {
+    background-color: #f2f2f2;
+    height: auto;
+}
+
+.article-2__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.article-2__item {
+    width: 16.667%;
+}
+
+.article-2__img {
+    /* height: 100%; */
+    padding: 0 40px;
+    width: 100%;
+}
+
+.article-2__title {
+    font-size: 1.8rem;
+    color: #A3AAB9;
+    text-align: center;
+}
+
+/* article 3 */
+.article-3 {
+    padding: 90px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article__vid {
+    height: 320px;
+}
+
+.article-3 .article__wrapper {
+    width: 650px;
+    text-align: right;
+}
+
+/* article 4 */
+.article-4 {
+    background-color: var(--main-color);
+    height: auto;
+    margin: 52px 0;
+    position: relative;
+}
+
+.article-4::before {
+    content: "Quy trình khám bệnh chuẩn tại S.medisan";
+    position: absolute;
+    background-color: var(--bold-main-color);
+    border-radius: 40px 40px 10px 10px;
+    padding: 20px 32px;
+    font-size: 1.8rem;
+    color: var(--white-color);
+    bottom: 100%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.article-4__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.article-4__item {
+    width: 16.667%;
+    padding: 0 8px;
+}
+
+.article-4__img {
+    /* height: 100%; */
+    padding: 0 45px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.article-4__title {
+    font-size: 1.8rem;
+    color: var(--white-color);
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+/* aritcle 5 */
+.article-5 {
+    position: relative;
+}
+
+.article-5__warpper {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 640px;
+    position: absolute;
+}
+
+.article-5__warpper .article__description {
+    width: 550px;
+}
+
+.article-5__box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article-5__box {
+    display: inline-flex;
+    height: 200px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    border-radius: 35px;
+}
+
+.article-5__box:nth-of-type(1) {
+    background-color: #FB6C7E;
+}
+
+.article-5__box:nth-of-type(2) {
+    background-color: #968BD7;
+}
+
+.article-5__box:nth-of-type(3) {
+    background-color: #5FD4C2;
+}
+
+.article-5__box:nth-of-type(4) {
+    background-color: #FFB073;
+}
+
+.article-5__img {
+    height: 66px;
+}
+
+.article-5__text {
+    font-size: 1.4rem;
+    width: 250px;
+    text-align: center;
+    color: var(--white-color);
+    margin-top: 24px;
+}
+
+/* article 6 */
+.article-6 {
+    padding: 80px 0;
+}
+
+.article-6__heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-6__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-6__item {
+    width: 25%;
+    padding: 26px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-6__img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.article-6__name {
+    font-size: 1.7rem;
+    color: #333;
+    margin: 28px 0 8px 0;
+    font-weight: 500;
+}
+
+.article-6__spectialized {
+    font-size: 1.5rem;
+    color: #737E95;
+    font-weight: 400;
+}
+
+/* article-7 */
+.article-7 {
+    padding: 80px 0;
+    background: url(../img/article7/background.png) no-repeat center / cover;
+}
+
+.article-7__heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-7__wrapper {
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 16px
+}
+
+.article-7__comment-box {
+    background-color: var(--main-color);
+    padding: 40px 20px;
+    border-radius: 35px;
+    width: 40%;
+    position: relative;
+
+}
+
+.article-7__text {
+    color: var(--white-color);
+    font-size: 2.0rem;
+    line-height: 2.1rem;
+    font-weight: 500;
+    width: 90%;
+    text-align: center;
+}
+
+.article-7__name {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    margin-top: 26px;
+    font-weight: 400;
+    padding-left: 10%;
+}
+
+.article-7__avatar {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    left: 100%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+/* footer */
+#footer {
+    background-color: #f0f0f0;
+    padding: 30px 80px 100px 80px;
+}
+
+.footer__logo {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.footer__box {
+    display: flex;
+}
+
+.footer__wrapper:nth-of-type(1) {
+    flex: 5;
+}
+
+.footer__wrapper:nth-of-type(2) {
+    flex: 4;
+    margin: 0 32px;
+}
+
+.footer__wrapper:nth-of-type(3) {
+    flex: 3;
+}
+
+.footer__heading {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #344059;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer__link {
+    color: rgba(116 127 150 / 0.6);
+    line-height: 2.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    width: 90%;
+}
+
+.footer__bold {
+    color: #737E95;
+    font-weight: 700;
+}

@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1024px) and (min-width: 640px) { 
+    .grid {
+        max-width: 540px;
+    }
+
+    .article-4 .article-4__item {
+        margin-bottom: 90px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .article-1 {
+        display: none;
+    }
+
+    .article-1 .article__description {
+        display: none;
+        width: 100%;
+    }
+
+    .article-1 .article__wrapper {
+        width: 100%;
+        position: relative;
+    }
+
+    .article-1 .article__wrapper {
+        top: 12px;
+        margin-bottom: 120px;
+    }
+
+    .article__button {
+        margin-top: 26px;
+        float: right;
+    }
+
+    .article-2 {
+        margin-top: 100px;
+    }
+
+    .article-2__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .article-2__item {
+        width: 50%;
+        margin-bottom: 26px;
+    }
+
+    .article-3 {
+        flex-wrap: wrap;
+    }
+
+    .article__vid {
+        height: unset;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .article-3 .article__wrapper {
+        text-align: justify;
+    }
+
+    .article-4__wrapper {
+       display: flex;
+       flex-wrap: wrap;
+       overflow-x: auto;
+    }
+
+    .article-4::before {
+        width: 80%;
+    }
+
+    .article-4__item {
+        width: calc(50% - 4px);
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 26px;
+        /* background-color: #f33f62; */
+        height: 200px;
+        border-radius: 4px;
+    }
+
+    .article-4 {
+        /* background-color: unset; */
+    }
+
+    .article-5__warpper {
+        position: relative;
+        width: unset;
+    }
+
+    .article-5__warpper .article__description {
+        display: none;
+    }
+
+    .article-5__warpper {
+        transform: unset;
+        top: 12px;
+    }
+
+    .article-5__box {
+        width: calc(50% - 8px);
+    }
+
+    .article-5__text {
+        width: unset;
+    }
+
+    .article__background {
+        display: none;
+    }
+
+    .article-6__item {
+        width: 50%;
+        padding: 25px 12px;
+    }
+
+    .article__heading {
+        font-size: 2.6rem;
+        line-height: 2.6rem;
+    }
+
+    .article-6__list {
+        flex-wrap: wrap;
+    }
+
+    .article-7__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .article-7__comment-box {
+        width: 90%;
+        margin-bottom: 26px;
+        padding: 20px;
+    }
+
+    .article-7__text {
+        font-size: 1.8rem;
+    }
+}

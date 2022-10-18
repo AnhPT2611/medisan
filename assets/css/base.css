@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    --main-color: #f33f62;
+    --bold-main-color: #d80e35;
+    --white-color: white;
+    --bold-text-color: rgba(115 126 149 / 87%);
+    --text-color: #A3AAB9;
+    --border-radius: 35px
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: auto;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.grid {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.clear {
+    clear: both;
+}
+
+.header-bottom__menu-btn {
+    display: none;
+}
+
+.respon-menu {
+    position: fixed;
+    height: 56px;
+    background-color: #f33f62;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    z-index: 1;
+}
+
+.respon-menu__btn {
+    height: 100%;
+    background-color: #f33f62; 
+    border: none;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.respon-menu__btn:hover {
+    background-color: var(--bold-main-color);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input, button {
+    outline: none;
+}

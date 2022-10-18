@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
+    <title>Medisan - Login</title>
+</head>
+
+<body>
+    <header id="header-main">
+        <div class="grid">
+            <header id="header-top__wrapper">
+                <div class="header__top-left">
+                    <a href="#" class="header__logo">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+
+                    <div class="header__search-wrapper">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm..."></input>
+                        <img class="header__search-icon" src="assets/img/Search_icon.png" alt="">
+                    </div>
+
+                    <button class="header__category-box cp">
+                        <span class="header__category-text">
+                            <i class="fa-solid fa-bars"></i>
+                            Danh mục
+                        </span>
+                    </button>
+                </div>
+
+                <div class="header__top-right">
+                    <button class="header-top-right__item"><img class="header-top-right__img" src="assets/img/phone.png"
+                            alt=""><span>: (090) 9191919</span></button>
+                    <a href="login.html" class="header-top-right__item cp"><img class="header-top-right__img"
+                            src="assets/img/user.png" alt=""></a>
+                    <button class="header-top-right__item cp"><img class="header-top-right__img"
+                            src="assets/img/cart.png" alt=""></button>
+                </div>
+            </header>
+
+            <!-- mobile menu -->
+            <div class="respon-menu">
+                <label for="menu-btn" class="respon-menu__btn"><i class="fa-solid fa-bars"></i></label>
+                <label class="respon-menu__btn"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </div>
+        </div>
+        <header id="header-bottom">
+            <div class="grid">
+                <input type="checkbox" hidden name="" id="menu-btn">
+                <div class="header-bottom__wrapper">
+                    <ul class="header-bottom__list">
+                        <label for="menu-btn" class="header-bottom__menu-btn"><i class="fa-solid fa-bars"></i></label>
+                        <li class="header-bottom__item"><a href="index.html" class="header-bottom__link">Trang chủ</a>
+                        </li>
+                        <li class="header-bottom__item"><a href="purchase.html" class="header-bottom__link">Mua hàng</a>
+                        </li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Tích điểm</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Ưu đãi</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Chuyên gia tư vấn</a>
+                        </li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Sống khỏe</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Nhà thuốc</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </header>
+
+    <form id="form">
+        <h1 class="form__heading">Đăng nhập</h1>
+        <input required type="text" placeholder="Tên đăng nhập" min="1" max="25" class="form__input">
+        <input required type="password" placeholder="Mật khẩu" minlength="1" maxlength="25" class="form__input">
+        <div class="form__tool-wrapper">
+            <span class="form__forgot-password"><a href="" class="form-link">Quên mật khẩu?</a></span>
+            <span class="form__register"><a href="" class="form-link">Đăng ký</a></span>
+        </div>
+        <button class="form__login-btn">Đăng nhập</button>
+        <div class="form__login-with-wrapper">  
+            <a href="" class="form__login-with-fb"><img src="assets/img/fb.png" alt=""></a>
+            <a href="" class="form__login-with-gg"><img src="assets/img/gg.png" alt=""></a>
+        </div>
+    </form>
+
+    <footer id="footer">
+        <div class="grid">
+            <img src="assets/img/logo.png" class="footer__logo"></img>
+            <div class="footer__box">
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Phòng khám đa khoa quốc tế S.Medisan</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Địa
+                                    chỉ: </span>A12, Đinh Tiên Hoàng, Q. Hoàn Kiếm, Hà Nội</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Số điện
+                                    thoại: </span>0123456789</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Email:
+                                </span>contact@yourdomain.com</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span
+                                    class="footer__bold">Website: </span>http://smedisan.w2.exdomain.net</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Thông tin</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Về chúng tôi</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chính sách bảo mật</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Điều khoản và điều kiện</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chính sách thanh toán</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Menu chính</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Trang chủ</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Mua hàng</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Tích điểm</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Ưu đãi</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chuyên gia tư vấn</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Sống khỏe</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Nhà thuốc</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

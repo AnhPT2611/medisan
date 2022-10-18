@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/cart-respon.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.2.0-web/css/all.css">
+    <title>Medisan - Giỏ hàng</title>
+</head>
+
+<body>
+    <header id="header-main">
+        <div class="grid">
+            <header id="header-top__wrapper">
+                <div class="header__top-left">
+                    <a href="#" class="header__logo">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+
+                    <div class="header__search-wrapper">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm..."></input>
+                        <img class="header__search-icon" src="assets/img/Search_icon.png" alt="">
+                    </div>
+
+                    <button class="header__category-box cp">
+                        <span class="header__category-text">
+                            <i class="fa-solid fa-bars"></i>
+                            Danh mục
+                        </span>
+                    </button>
+                </div>
+
+                <div class="header__top-right">
+                    <button class="header-top-right__item"><img class="header-top-right__img" src="assets/img/phone.png"
+                            alt=""><span>: (090) 9191919</span></button>
+                    <a href="login.html" class="header-top-right__item cp"><img class="header-top-right__img"
+                            src="assets/img/user.png" alt=""></a>
+                    <button class="header-top-right__item cp"><img class="header-top-right__img"
+                            src="assets/img/cart.png" alt=""></button>
+                </div>
+            </header>
+
+            <!-- mobile menu -->
+            <div class="respon-menu">
+                <label for="menu-btn" class="respon-menu__btn"><i class="fa-solid fa-bars"></i></label>
+                <label class="respon-menu__btn"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </div>
+        </div>
+        <header id="header-bottom">
+            <div class="grid">
+                <input type="checkbox" name="" id="menu-btn" hidden>
+                <div class="header-bottom__wrapper">
+                    <ul class="header-bottom__list">
+                        <label for="menu-btn" class="header-bottom__menu-btn"><i class="fa-solid fa-bars"></i></label>
+                        <li class="header-bottom__item"><a href="index.html" class="header-bottom__link">Trang chủ</a>
+                        </li>
+                        <li class="header-bottom__item header-bottom__item--action"><a href="purchase.html" class="header-bottom__link">Mua hàng</a>
+                        </li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Tích điểm</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Ưu đãi</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Chuyên gia tư vấn</a>
+                        </li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Sống khỏe</a></li>
+                        <li class="header-bottom__item"><a href="#" class="header-bottom__link">Nhà thuốc</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </header>
+
+    <article class="article">
+        <div class="grid">
+            <div class="article-breadcrumb">
+                <a href="" class="article-breadcrum__link"><span class="article-breadcrumb__item">Mua hàng</span></a>
+                <i class="fa-solid fa-angle-right article-breadcrumb__icon"></i>
+                <a href="" class="article-breadcrum__link"><span class="article-breadcrumb__item">Giỏ hàng</span></a>
+            </div>
+
+            <div class="flex-wrapper">
+                <div class="article-product__box">
+                    <h2 class="article-product__heading">Sản phẩm</h2>
+                    <div class="article-product__item-main-wrapper">
+                        <button class="article-product__remove-btn"><i class="fa-solid fa-xmark"></i></button>
+                        <div class="article-product__item-img-wrapper">
+                            <img src="assets/img/products/1.png" alt="" class="article-product__item-img">
+                        </div>
+                        <div class="article-product__item-detail-wrapper">
+                            <div class="article-product__item-wrapper">
+                                <h3 class="article-product__item-heading">Jex thế hệ mới</h3>
+                                <span class="article-product__item-price">180.000 VNĐ</span>
+                            </div>
+                            <div class="article-product__item-wrapper">
+                                <p class="article-product__item-description">Phân loại: 15 viên</p>
+                                <div class="article-product__quantity-box">
+                                    <button
+                                        class="article-product__quantity-btn article-product__quantity-btn--disabled">-</button>
+                                    1
+                                    <button class="article-product__quantity-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="aside">
+                    <div class="aside-shipment__box">
+                        <div class="aside-shipment__heading-wrapper">
+                            <h3 class="aside__heading">Thông tin giao hàng</h3>
+                            <button class="aside-shipment__change-btn">Thay đổi</button>
+                        </div>
+                        <p class="aside-shipment__text">
+                            <span class="aside-shipment__text-highlight">Người nhận: </span>
+                            Anh Pham
+                        </p>
+                        <p class="aside-shipment__text">
+                            <span class="aside-shipment__text-highlight">Số điện thoại: </span>
+                            +84794437748
+                        </p>
+                        <p class="aside-shipment__text">
+                            <span class="aside-shipment__text-highlight">Giao đến: </span>
+                            18A, đường số 16a, phường Bình Trị Đông A, quận Bình Tân, Tp. Hồ Chí Minh
+                        </p>
+                    </div>
+
+                    <div class="aside-payment-methods__box">
+                        <h3 class="aside__heading">Phương thức thanh toán</h3>
+                        <div class="aside-payment-methods__wrapper">
+                            <div class="aside-payment-methods__item aside-payment-methods__item--checked">
+                                <div class="aside-payment-methods__img-wrapper">
+                                    <img src="assets/img/payment/cod.png" alt="" class="aside-payment-methods__img">
+                                </div>
+                                <span class="aside-payment-methods__label">Tiền mặt (COD)</span>
+                            </div>
+
+                            <div class="aside-payment-methods__item">
+                                <div class="aside-payment-methods__img-wrapper">
+                                    <img src="assets/img/payment/card.png" alt="" class="aside-payment-methods__img">
+                                </div>
+                                <span class="aside-payment-methods__label">Thẻ tín dụng</span>
+                            </div>
+
+                            <div class="aside-payment-methods__item">
+                                <div class="aside-payment-methods__img-wrapper">
+                                    <img src="assets/img/payment/zp.png" alt="" class="aside-payment-methods__img">
+                                </div>
+                                <span class="aside-payment-methods__label">Zalo Pay</span>
+                            </div>
+
+                            <div class="aside-payment-methods__item">
+                                <div class="aside-payment-methods__img-wrapper">
+                                    <img src="assets/img/payment/momo.png" alt="" class="aside-payment-methods__img">
+                                </div>
+                                <span class="aside-payment-methods__label">Momo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="aside-payment-detail__box">
+                        <h3 class="aside__heading">Chi tiết thanh toán: </h3>
+                        <div class="aside-payment-detail__wrapper">
+                            <span class="aside-payment-detail__title">
+                                1 sản phẩm
+                            </span>
+                            <span class="aside-payment-detail__text aside-payment-detail__text--medium">
+                                180.000đ
+                            </span>
+                        </div>
+
+                        <div class="aside-payment-detail__wrapper">
+                            <span class="aside-payment-detail__title">
+                                Phí vận chuyển  
+                            </span>
+                            <span class="aside-payment-detail__text aside-payment-detail__text--small">
+                                22.000đ
+                            </span>
+                        </div>
+
+                        <div class="aside-payment-detail__wrapper aside-payment-detail__gross-money">
+                            <span class="aside-payment-detail__title">
+                                Tổng: 
+                            </span>
+                            <span class="aside-payment-detail__text aside-payment-detail__text--large">
+                                202.000đ
+                            </span>
+                        </div>
+                        <button class="aside-payment-detail__order-btn">Đặt hàng</button>
+                        <div class="clear"></div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+
+    <slider class="slider">
+        <div class="grid">
+            <h2 class="slider__heading">Sản phẩm đã xem</h2>
+            <div class="slider__box">
+                <div class="slider__item">
+                    <div class="slider__img-wrapper">
+                        <div class="slider__img"></div>
+                    </div>
+                    <div class="slider__item-heading">Jex thế hệ mới 60V</div>
+                    <div class="slider__price-wrapper">
+                        <span class="slider__price">630.000 VNĐ</span>
+                        <button class="slider__add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <p class="slider__location">Hà Nội, TP. Hồ Chí Minh</p>
+                </div>
+
+                <div class="slider__item">
+                    <div class="slider__img-wrapper">
+                        <div class="slider__img"></div>
+                    </div>
+                    <div class="slider__item-heading">Jex thế hệ mới 60V</div>
+                    <div class="slider__price-wrapper">
+                        <span class="slider__price">630.000 VNĐ</span>
+                        <button class="slider__add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <p class="slider__location">Hà Nội, TP. Hồ Chí Minh</p>
+                </div>
+
+                <div class="slider__item">
+                    <div class="slider__img-wrapper">
+                        <div class="slider__img"></div>
+                    </div>
+                    <div class="slider__item-heading">Jex thế hệ mới 60V</div>
+                    <div class="slider__price-wrapper">
+                        <span class="slider__price">630.000 VNĐ</span>
+                        <button class="slider__add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <p class="slider__location">Hà Nội, TP. Hồ Chí Minh</p>
+                </div>
+
+                <div class="slider__item">
+                    <div class="slider__img-wrapper">
+                        <div class="slider__img"></div>
+                    </div>
+                    <div class="slider__item-heading">Jex thế hệ mới 60V</div>
+                    <div class="slider__price-wrapper">
+                        <span class="slider__price">630.000 VNĐ</span>
+                        <button class="slider__add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <p class="slider__location">Hà Nội, TP. Hồ Chí Minh</p>
+                </div>
+
+                <div class="slider__item">
+                    <div class="slider__img-wrapper">
+                        <div class="slider__img"></div>
+                    </div>
+                    <div class="slider__item-heading">Jex thế hệ mới 60V</div>
+                    <div class="slider__price-wrapper">
+                        <span class="slider__price">630.000 VNĐ</span>
+                        <button class="slider__add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <p class="slider__location">Hà Nội, TP. Hồ Chí Minh</p>
+                </div>
+
+                <div class="slider__item">
+                    <div class="slider__link">
+                        <div class="slider__img-wrapper">
+                            <div class="slider__img"></div>
+                        </div>
+                        <div class="slider__item-heading">Jex thế hệ mới 60V</div>
+                        <div class="slider__price-wrapper">
+                            <span class="slider__price">630.000 VNĐ</span>
+                            <button class="slider__add-btn"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <p class="slider__location">Hà Nội, TP. Hồ Chí Minh</p>
+                    </div>
+                </div>
+                <button class="slider__btn"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="slider__btn"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="slider__pagination">
+                <button class="slider__pagination-btn slider__pagination-btn--action"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+                <button class="slider__pagination-btn"></button>
+            </div>
+        </div>
+    </slider>
+
+    <footer id="footer">
+        <div class="grid">
+            <img src="assets/img/logo.png" class="footer__logo"></img>
+            <div class="footer__box">
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Phòng khám đa khoa quốc tế S.Medisan</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Địa
+                                    chỉ: </span>A12, Đinh Tiên Hoàng, Q. Hoàn Kiếm, Hà Nội</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Số điện
+                                    thoại: </span>0123456789</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span class="footer__bold">Email:
+                                </span>contact@yourdomain.com</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link"><span
+                                    class="footer__bold">Website: </span>http://smedisan.w2.exdomain.net</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Thông tin</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Về chúng tôi</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chính sách bảo mật</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Điều khoản và điều kiện</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chính sách thanh toán</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__wrapper">
+                    <header class="footer__heading">Menu chính</header>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="" class="footer__link">Trang chủ</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Mua hàng</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Tích điểm</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Ưu đãi</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Chuyên gia tư vấn</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Sống khỏe</a></li>
+                        <li class="footer__list-item"><a href="" class="footer__link">Nhà thuốc</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
