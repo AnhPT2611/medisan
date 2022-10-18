@@ -96,14 +96,33 @@
 
 .header-bottom__item {
     display: inline-block;
+    position: relative;
 }
 
-.header-bottom__item:hover {
-    background-color: var(--bold-main-color);
+.header-bottom__link:hover::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgb(216, 14, 53), rgba(216 14 53 / 0));
+    animation: moveIn ease .5s;
+}
+
+@keyframes moveIn {
+    from {
+        opacity: 0;
+        height: 0%;
+    }
+    to {
+        opacity: 1  ;
+        height: 100%;
+    }
 }
 
 .header-bottom__item--action {
-    background-color: var(--bold-main-color);
+    background-image: linear-gradient(rgb(216, 14, 53), rgba(216 14 53 / 0));
 }
 
 .header-bottom__link {
